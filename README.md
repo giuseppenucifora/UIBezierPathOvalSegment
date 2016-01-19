@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod "UIBezierPathOvalSegment"
 ```
 
+```ruby
++ (UIBezierPath *)bezierPathWithOvalInRect:(CGRect)rect startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle;
+
++ (UIBezierPath *)bezierPathWithOvalInRect:(CGRect)rect startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle angleStep:(CGFloat)angleStep;
+````
+
 ## Author
 
 Giuseppe Nucifora, me@giuseppenucifora.com
