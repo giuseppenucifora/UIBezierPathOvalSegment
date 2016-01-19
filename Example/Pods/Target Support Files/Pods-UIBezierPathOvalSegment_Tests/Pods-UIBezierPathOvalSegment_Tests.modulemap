@@ -1,0 +1,6 @@
+framework module Pods_UIBezierPathOvalSegment_Tests {
+  umbrella header "Pods-UIBezierPathOvalSegment_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

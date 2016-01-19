@@ -20,7 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		79CC1275C6AE8200DD5EC242 /* Pods_UIBezierPathOvalSegment_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7081769122320CA45315201E /* Pods_UIBezierPathOvalSegment_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EF5C4E0FB0A6EE31DE06B8B5 /* Pods_UIBezierPathOvalSegment_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB79E7620372FB938E58DF96 /* Pods_UIBezierPathOvalSegment_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		203FEAD6CB2D29F99C0DAE5C /* UIBezierPathOvalSegment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = UIBezierPathOvalSegment.podspec; path = ../UIBezierPathOvalSegment.podspec; sourceTree = "<group>"; };
+		203FEAD6CB2D29F99C0DAE5C /* UIBezierPathOvalSegment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIBezierPathOvalSegment.podspec; path = ../UIBezierPathOvalSegment.podspec; sourceTree = "<group>"; };
+		205BADEBC70D6B9D50CF19E8 /* Pods-UIBezierPathOvalSegment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPathOvalSegment_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Example/Pods-UIBezierPathOvalSegment_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		33DE2317758472E5CF0E5E31 /* Pods-UIBezierPathOvalSegment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPathOvalSegment_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Example/Pods-UIBezierPathOvalSegment_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UIBezierPathOvalSegment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierPathOvalSegment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,9 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		7081769122320CA45315201E /* Pods_UIBezierPathOvalSegment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIBezierPathOvalSegment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3E1D6A3164997D221080D1 /* Pods-UIBezierPathOvalSegment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPathOvalSegment_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Tests/Pods-UIBezierPathOvalSegment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8996459E573462A2A1CC3658 /* Pods-UIBezierPathOvalSegment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPathOvalSegment_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Tests/Pods-UIBezierPathOvalSegment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E163AECEE3981317B0B47651 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EFBB5DAD02091E577BCC8643 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB79E7620372FB938E58DF96 /* Pods_UIBezierPathOvalSegment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIBezierPathOvalSegment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBB5DAD02091E577BCC8643 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				EF5C4E0FB0A6EE31DE06B8B5 /* Pods_UIBezierPathOvalSegment_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				79CC1275C6AE8200DD5EC242 /* Pods_UIBezierPathOvalSegment_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +101,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				A35C808CA12BCC308F527C3B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				EB79E7620372FB938E58DF96 /* Pods_UIBezierPathOvalSegment_Example.framework */,
+				7081769122320CA45315201E /* Pods_UIBezierPathOvalSegment_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +182,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A35C808CA12BCC308F527C3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				205BADEBC70D6B9D50CF19E8 /* Pods-UIBezierPathOvalSegment_Example.debug.xcconfig */,
+				33DE2317758472E5CF0E5E31 /* Pods-UIBezierPathOvalSegment_Example.release.xcconfig */,
+				7D3E1D6A3164997D221080D1 /* Pods-UIBezierPathOvalSegment_Tests.debug.xcconfig */,
+				8996459E573462A2A1CC3658 /* Pods-UIBezierPathOvalSegment_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "UIBezierPathOvalSegment_Example" */;
 			buildPhases = (
+				35712D79D0AED7AD2F3B7747 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				DA68A782A363382C83FF1A0A /* Embed Pods Frameworks */,
+				C9D061CFAEED33081C824612 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "UIBezierPathOvalSegment_Tests" */;
 			buildPhases = (
+				E8F520A8669DBC9456101614 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				0F9632F5B81F5B2B7774CA21 /* Embed Pods Frameworks */,
+				89E521FDCDD26F684A0FB520 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "UIBezierPathOvalSegment" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,6 +291,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9632F5B81F5B2B7774CA21 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Tests/Pods-UIBezierPathOvalSegment_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35712D79D0AED7AD2F3B7747 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89E521FDCDD26F684A0FB520 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Tests/Pods-UIBezierPathOvalSegment_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D061CFAEED33081C824612 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Example/Pods-UIBezierPathOvalSegment_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA68A782A363382C83FF1A0A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIBezierPathOvalSegment_Example/Pods-UIBezierPathOvalSegment_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F520A8669DBC9456101614 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
@@ -386,6 +509,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205BADEBC70D6B9D50CF19E8 /* Pods-UIBezierPathOvalSegment_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +525,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DE2317758472E5CF0E5E31 /* Pods-UIBezierPathOvalSegment_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -416,6 +541,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3E1D6A3164997D221080D1 /* Pods-UIBezierPathOvalSegment_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -439,6 +565,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8996459E573462A2A1CC3658 /* Pods-UIBezierPathOvalSegment_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "UIBezierPathOvalSegment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

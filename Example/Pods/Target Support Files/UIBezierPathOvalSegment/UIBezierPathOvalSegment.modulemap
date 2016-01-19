@@ -1,0 +1,6 @@
+framework module UIBezierPathOvalSegment {
+  umbrella header "UIBezierPathOvalSegment-umbrella.h"
+
+  export *
+  module * { export * }
+}
